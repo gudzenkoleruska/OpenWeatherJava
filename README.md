@@ -16,7 +16,7 @@
 <pre><br />public&nbsp;CaptureNetworkTraffic setUpDevTool(WebDriver driver) {<br />&nbsp; &nbsp; &nbsp;devTools&nbsp;= ((ChromeDriver) driver).getDevTools();<br />&nbsp; &nbsp; &nbsp;devTools.createSession();<br />&nbsp; &nbsp; &nbsp;devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));<br />&nbsp;<br />&nbsp; &nbsp; &nbsp;return this;<br />&nbsp;}&nbsp;</pre>
 </blockquote>
 <p><strong>org.openqa.selenium.devtools.v106.network.Network</strong>&nbsp;was used for traffic interception.</p>
-<p>Class&nbsp;<strong>HttpURLConnection</strong>&nbsp;was used to send direct API calls and check responses.<br /><br /><strong>Rest Assured</strong> library and&nbsp;<strong>POJO Model</strong> was used for testing and validating REST APIs.</p>
+<p>Class&nbsp;<strong>HttpURLConnection</strong>&nbsp;was used to send direct API calls and check responses. <br /><br /><strong>Rest Assured</strong> library and&nbsp;<strong>POJO Model</strong> was used for testing and validating REST APIs.</p>
 <h1>Setup the project and execute tests locally</h1>
 <p>1. Install IntelliJ IDE:<br /><a href="https://www.jetbrains.com/help/idea/installation-guide.html">https://www.jetbrains.com/help/idea/installation-guide.html</a></p>
 <p>2. Copy the HTTPS project link from the GitHub repository:&nbsp;<br /><a href="https://github.com/gudzenkoleruska/OpenWeatherJava.git">https://github.com/gudzenkoleruska/OpenWeatherJava.git</a></p>
